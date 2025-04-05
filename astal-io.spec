@@ -38,6 +38,7 @@ Group:      System/Libraries
 Provides:   %{libname} = %{EVRD}
 
 %description -n %{libname}
+Building blocks for creating custom desktop shells
 
 %package -n %{devname}
 Summary:  Development files for %{name}
