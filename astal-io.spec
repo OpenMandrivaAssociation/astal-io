@@ -8,7 +8,7 @@
 %define devname %mklibname astal-io -d
 
 Name:       astal-io
-Version:    0~%{bumpver}.git%{astal_shortcommit}
+Version:    1~%{bumpver}.git%{astal_shortcommit}
 Release:    1
 Source0:    https://github.com/aylur/astal/archive/%{astal_commit}/%{name}-%{astal_shortcommit}.tar.gz
 Summary:    Building blocks for creating custom desktop shells
