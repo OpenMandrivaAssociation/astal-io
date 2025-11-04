@@ -1,6 +1,6 @@
-%global astal_commit 20bd8318e4136fbd3d4eb2d64dbabc3acbc915dd
+%global astal_commit 6976faba892be4c79d2b8b42710203b319278d7f
 %global astal_shortcommit %(c=%{astal_commit}; echo ${c:0:7})
-%global bumpver 2
+%global bumpver 3
 
 %global _vpath_srcdir lib/astal/io
 
@@ -21,7 +21,7 @@ BuildRequires:  meson
 BuildRequires:  gcc
 BuildRequires:  meson
 BuildRequires:  python3
-BuildRequires:  vala
+BuildRequires:  vala-devel
 BuildRequires:  valadoc
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(gio-unix-2.0)
